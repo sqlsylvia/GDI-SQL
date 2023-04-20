@@ -16,3 +16,42 @@ Group BY CategoryID
 ORDER BY CategoryID
 ```
 <img width="939" alt="image" src="https://user-images.githubusercontent.com/3587423/233473064-b6c8b7b4-e8c7-45ef-b85d-281ecd0c05d2.png">
+
+
+## GROUP BY Examples
+
+SELECT ProductName, AVG(Price) FROM [Products]
+GROUP BY ProductName
+ORDER BY ProductName
+
+SELECT CategoryID, AVG(Price) FROM [Products]
+GROUP BY CategoryID
+ORDER BY CategoryID
+
+SELECT CategoryID, Avg(Price), MIN(Price), Max(Price), Count(*) as NumberOfProducts 
+FROM [Products] 
+group by CategoryID
+
+
+SELECT CategoryID, Avg(Price), MIN(Price), Max(Price), Count(*) as NumberOfProducts 
+FROM [Products] 
+group by CategoryID
+
+
+## WHERE Clause Exampls
+SELECT * FROM [Products]
+where Price > 10
+order by Price desc
+
+
+SELECT * FROM [Products]
+where Price > 10
+order by Price desc
+
+
+SELECT * FROM [Customers]
+where Country = "Argentina" or Country = "Venezuela"
+
+## NOT Clause
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
