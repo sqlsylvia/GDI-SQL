@@ -33,9 +33,7 @@ FROM [Products]
 group by CategoryID
 
 
-SELECT CategoryID, Avg(Price), MIN(Price), Max(Price), Count(*) as NumberOfProducts 
-FROM [Products] 
-group by CategoryID
+
 
 
 ## WHERE Clause Examples
