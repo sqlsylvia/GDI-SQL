@@ -38,7 +38,7 @@ FROM [Products]
 group by CategoryID
 
 
-## WHERE Clause Exampls
+## WHERE Clause Examples
 SELECT * FROM [Products]
 where Price > 10
 order by Price desc
