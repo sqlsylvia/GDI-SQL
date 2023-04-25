@@ -24,7 +24,7 @@ VALUES (99
 ``` sql
 WITH Data as
 ( 
-select 99 as SupplierId
+SELECT 99 as SupplierId
 , 'John The Supplier' as SupplierName
 , 'John' as ContactName
 , 'One Microsoft Way' as Address
@@ -46,6 +46,12 @@ SELECT supplierID, supplierName, ContactName, Address, City, PostalCode, Country
 UPDATE Suppliers
 SET Phone='(800) 123-4567'
 WHERE SupplierID = 99
+```
+
+## DELETE Example
+``` sql
+DELETE Suppliers
+WHERE SupplierID = 99;
 ```
 
 
