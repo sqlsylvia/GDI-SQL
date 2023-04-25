@@ -77,7 +77,32 @@ GROUP BY ProductID
 ) x
 ```
 ### Subquery Example 2
+``` sql
+SELECT Country, count(*)
+FROM (SELECT 'Customer' as PersonType, CustomerName, City, Country 
+ FROM Customers
+ UNION
+SELECT 'Supplier' as PersonType,  SupplierName, City, Country 
+ FROM Suppliers
+) 
+GROUP BY Country
+```
 
+### Subquery Example 2 - as Common Table Expression
+
+``` sql
+WITH cte_quantity
+AS
+(SELECT ProductID,
+    SUM(Quantity) as Total
+FROM OrderDetails
+GROUP BY ProductID)
+ 
+SELECT
+    AVG(Total) average_product_quantity
+FROM cte_quantity;
+
+```
 
 ## INSERT EXAMPLES
 
