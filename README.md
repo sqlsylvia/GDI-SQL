@@ -12,3 +12,6 @@
 - https://www.w3schools.com/sql/default.asp
 - https://www.tutorialspoint.com/sql/index.htm
 
+Interested in practicing?  Check out the SQL Exercises at W3Schools!
+
+- https://www.w3schools.com/sql/sql_exercises.asp
