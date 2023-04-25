@@ -3,6 +3,47 @@
 
 Run these examples in the W3 School database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
+## JOIN Examples
+
+### INNER JOIN Example
+``` sql
+SELECT Employees.LastName
+, Orders.OrderID
+FROM Orders
+JOIN Employees
+ ON orders.EmployeeID = Employees.EmployeeID ;
+``` 
+
+### LEFT JOIN Example
+``` sql
+SELECT Employees.LastName
+, Orders.OrderID
+FROM Employees
+LEFT JOIN Orders
+ ON orders.EmployeeID = Employees.EmployeeID ;
+
+``` 
+
+### RIGHT JOIN Example
+``` sql
+SELECT Employees.LastName
+, Orders.OrderID
+FROM Orders
+RIGHT JOIN Employees
+ ON orders.EmployeeID = Employees.EmployeeID ;
+
+
+``` 
+
+### FULL OUTER JOIN 
+``` sql
+SELECT Orders.customerID, OrderDetails.ProductID
+FROM Orders
+JOIN OrderDetails 
+
+``` 
+
+
 ## INSERT EXAMPLES
 
 ### Example 1:  INSERT with Values statement
