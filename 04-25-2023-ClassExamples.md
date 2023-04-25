@@ -54,6 +54,18 @@ JOIN OrderDetails
 ORDER by 2 asc
 ```
 
+
+## UNION Example
+``` sql
+SELECT 'Customer' as PersonType, CustomerName, City, Country 
+ FROM Customers
+ -- WHERE  Country ='Germany'
+UNION
+SELECT 'Supplier' as PersonType,  SupplierName, City, Country 
+ FROM Suppliers
+-- WHERE  Country ='Germany'
+```
+
 ## INSERT EXAMPLES
 
 ### Example 1:  INSERT with Values statement
