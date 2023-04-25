@@ -1,4 +1,7 @@
 
+# OVERVIEW
+
+Run these examples in the W3 School database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
 ## INSERT EXAMPLES
 
@@ -35,4 +38,12 @@ INSERT INTO Suppliers
     (supplierID, supplierName, ContactName, Address, City, PostalCode, Country, Phone)
 SELECT supplierID, supplierName, ContactName, Address, City, PostalCode, Country, Phone
   FROM Data;
+```
+
+## UPDATE Example
+
+``` sql
+UPDATE Suppliers
+SET Phone='(800) 123-4567'
+WHERE SupplierID = 99
 ```
