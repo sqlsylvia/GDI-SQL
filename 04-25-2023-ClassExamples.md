@@ -66,6 +66,19 @@ SELECT 'Supplier' as PersonType,  SupplierName, City, Country
 -- WHERE  Country ='Germany'
 ```
 
+## Subqueries
+
+### Subquery Example 1
+``` sql
+SELECT AVG(Total)
+FROM (SELECT ProductId, SUM(Quantity) Total
+FROM OrderDetails
+GROUP BY ProductID
+) x
+```
+### Subquery Example 2
+
+
 ## INSERT EXAMPLES
 
 ### Example 1:  INSERT with Values statement
