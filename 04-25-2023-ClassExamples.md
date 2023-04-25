@@ -54,7 +54,27 @@ DELETE Suppliers
 WHERE SupplierID = 99;
 ```
 
+## CREATE TABLE
+### CREATE Example 1
+The following example creates a table and inserts values into the table
 
+``` sql
+CREATE TABLE College 
+   (college_name text
+   , state char(2)
+   , enrollment int);
+```
+
+``` sql
+INSERT INTO College VALUES
+  ('Stanford', 'CA', 15000),
+  ('Berkeley', 'CA', 36000),
+  ('MIT', 'MA', 10000),
+  ('Cornell', 'NY', 21000)
+;
+```
+
+See https://www.w3schools.com/sql/sql_create_table.asp for more information on basic CREATE TABLE commands and examples.
 
 ## REFERENCES
 ### SQL JOINS
