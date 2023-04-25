@@ -94,6 +94,12 @@ WHERE SupplierID = 99
 DELETE Suppliers
 WHERE SupplierID = 99;
 ```
+## ALTER TABLE
+
+``` sql
+ALTER TABLE [Employees] 
+ ADD COLUMN Country VARCHAR(50);
+```
 
 ## CREATE TABLE
 ### CREATE Example 1
