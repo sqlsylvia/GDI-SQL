@@ -47,3 +47,10 @@ UPDATE Suppliers
 SET Phone='(800) 123-4567'
 WHERE SupplierID = 99
 ```
+
+
+
+## REFERENCES
+### SQL JOINS
+- FreeCodeCamp SQL - https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/#:~:text=There%20are%20three%20types%20of,RIGHT%20JOIN%20%2C%20and%20FULL%20JOIN%20
+
