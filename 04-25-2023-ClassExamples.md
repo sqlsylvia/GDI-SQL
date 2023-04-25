@@ -42,7 +42,17 @@ FROM Orders
 JOIN OrderDetails 
 
 ``` 
-
+## GROUP BY and HAVING
+``` sql
+  SELECT ShipperName, Count(Orders.OrderID) cnt
+  FROM Orders
+  INNER Join Shippers ON Shippers.ShipperID = Orders.ShipperID
+  --WHERE ShipperName == "Speedy Express"
+  GROUP BY ShipperName
+  -- HAVING cnt > 60
+  HAVING ShipperName == "Speedy Express"
+ORDER by 2 asc
+```
 
 ## INSERT EXAMPLES
 
