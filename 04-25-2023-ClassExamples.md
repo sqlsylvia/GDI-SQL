@@ -19,11 +19,11 @@ VALUES (99
 
 ### Example 2:  INSERT with SELECT and CTE
 ``` sql
-WITH SylviaData as
+WITH Data as
 ( 
 select 99 as SupplierId
-, 'Sylvia The Supplier' as SupplierName
-, 'Sylvia' as ContactName
+, 'John The Supplier' as SupplierName
+, 'John' as ContactName
 , 'One Microsoft Way' as Address
 , 'Redmond' as City
 , '10481' as PostalCode
@@ -34,5 +34,5 @@ select 99 as SupplierId
 INSERT INTO Suppliers 
     (supplierID, supplierName, ContactName, Address, City, PostalCode, Country, Phone)
 SELECT supplierID, supplierName, ContactName, Address, City, PostalCode, Country, Phone
-  FROM SylviaData
+  FROM Data;
 ```
