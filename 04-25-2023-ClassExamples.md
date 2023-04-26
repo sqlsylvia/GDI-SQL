@@ -183,7 +183,7 @@ WHERE SupplierID = 99
 
 ## DELETE Example
 ``` sql
-DELETE Suppliers
+DELETE FROM Suppliers
 WHERE SupplierID = 99;
 ```
 ## ALTER TABLE
