@@ -118,12 +118,23 @@ Calculate the total amount(price * quantity) of orders by Country.
  JOIN [Customers] C  ON O.CustomerID = C.CustomerID
 )
 GROUP BY Country
-![image](https://user-images.githubusercontent.com/3587423/234436326-a2460f7d-2149-4b88-9fd9-da3bb064cdfd.png)
-
-
 
 ```
+-- Useing CTE
+```
+WITH SUMQuery as 
+( Select orderdetails.orderdetailid, orders.orderid, customers.country, (products.price * orderdetails.quantity) as subtotal
+FROM Orderdetails
+JOIN Products ON products.productid = orderdetails.productid
+JOIN Orders ON orders.orderid = orderdetails.orderid
+JOIN Customers ON orders.customerid = customers.customerid 
+)
+ SELECT Country, ROUND(SUM(SubTotal), 2) AS Total_Amount_Per_Country
+ FROM SUMQuery
+GROUP BY country
+ORDER BY country
 
+```
 ## INSERT EXAMPLES
 
 ### Example 1:  INSERT with Values statement
