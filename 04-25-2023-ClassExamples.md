@@ -103,6 +103,9 @@ SELECT
 FROM cte_quantity;
 
 ```
+## Assignment
+- Use subquery 
+Calculate the total amount(price * quantity) of orders by Country.
 
 ## INSERT EXAMPLES
 
@@ -140,6 +143,7 @@ INSERT INTO Suppliers
 SELECT supplierID, supplierName, ContactName, Address, City, PostalCode, Country, Phone
   FROM Data;
 ```
+
 
 ## UPDATE Example
 
