@@ -15,3 +15,4 @@
 Interested in practicing?  Check out the SQL Exercises at W3Schools!
 
 - https://www.w3schools.com/sql/sql_exercises.asp
+- https://www.sql-practice.com/
