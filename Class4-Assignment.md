@@ -7,7 +7,8 @@ Create a table for your project.
 ### Develop it!
   - Develop a CREATE TABLE statement for your table with a PRIMARY KEY, NOT 
   NULL Contraints
-  - Develop one or more INSERT statements to load your table.
+  - Develop two or more INSERT statements to load your table.
+  - What kind of queries can you create to answer questions about your table?
 
 
 ### What if I can't think of table?
