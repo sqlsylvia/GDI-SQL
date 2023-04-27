@@ -30,6 +30,13 @@ CREATE VIEW CountryData as
 DROP VIEW CountryData;
 ``` 
 
+## Data Types
+In addition to the PDF in this REPO, check out the following for information on data types.
+- https://www.w3schools.com/sql/sql_datatypes.asp
+- https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql 
+- https://www.geeksforgeeks.org/sql-data-types/
+
+
 ## CREATE TABLE and PRIMARY KEY Example
 Also notice the use of NOT NULL.
 
