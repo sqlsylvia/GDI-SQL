@@ -67,6 +67,14 @@ UNIQUE(LastName,FirstName)
 );
 
 ```
+
+## CREATE INDEX Exmple
+``` sql
+
+CREATE INDEX idx_lastname
+ON Persons (LastName);
+```
+
 ## DEFAULT Contraint
 ``` sql
 CREATE TABLE Persons (
