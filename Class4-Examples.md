@@ -77,6 +77,25 @@ CREATE TABLE Persons (
     City varchar(255) DEFAULT 'New York'
 );
 ```
+
+## CHECK CONSTRAINT
+``` sql
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    CHECK (Age>=18)
+);
+```
+
+Test insert for check contraint.
+``` sql
+INSERT INTO Persons
+  (ID, LastName, FirstName, Age) VALUES ( 5, 'Simon', 'Paul', 6
+```
+
+
 ## INCREMENT (SQL SERVER VERSION)
 To run the SQL Server Version, go to http://sqlfiddle.com/#!18/1de21/1
 ``` sql
