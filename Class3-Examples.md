@@ -4,6 +4,10 @@
 Run these examples in the W3 School database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
 ## JOIN Examples
+See folllowing for more information and examples on JOINS
+
+- FreeCodeCamp SQL - https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/#:~:text=There%20are%20three%20types%20of,RIGHT%20JOIN%20%2C%20and%20FULL%20JOIN%20
+- W3Schools - https://www.w3schools.com/sql/sql_join.asp 
 
 ### INNER JOIN Example
 ``` sql
