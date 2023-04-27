@@ -92,7 +92,7 @@ CREATE TABLE Persons (
 Test insert for check contraint.
 ``` sql
 INSERT INTO Persons
-  (ID, LastName, FirstName, Age) VALUES ( 5, 'Simon', 'Paul', 6
+  (ID, LastName, FirstName, Age) VALUES ( 5, 'Simon', 'Paul', 6);
 ```
 
 
