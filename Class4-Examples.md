@@ -68,7 +68,7 @@ UNIQUE(LastName,FirstName)
 
 ```
 
-## CREATE INDEX Exmple
+## CREATE INDEX Example
 ``` sql
 
 CREATE INDEX idx_lastname
