@@ -139,4 +139,25 @@ SELECT 'Rodriguez', 'Sally', 22
 
 ```
 
+## How to improve a query performance?
+
+Improving query performance requires a lot of experience and understanding of 
+- The number of tables in the database
+- The tables sizes of the tables in the database and query where the performance is in question.
+- How much memory, disk space and cache space does the database have for performing the query.
+- What other transactions/users are happening in the database that maybe impacting query performance.
+
+### But what if I want my query to run faster?
+- Define what fast is.   How much time does the query take?  How much data is expected to return.
+- Limit the results of your query using a WHERE clause or if you are doing a GROUP BY using the HAVING clause.
+- Get Explain plan results for your query.
+   - If using SQL Server, see https://www.sqlshack.com/how-to-obtain-sql-execution-plans-using-different-methods/#gallery-1
+   - If using ORACLE, research using EXPLAIN PLAN.
+
+### General Best Practices include:
+1. Do Not Use * In Select Statment.  Specify the column names required for your query.
+2. Use proper INNER JOINS or CTE instead of SubQueries.
+3. Limit your results with a WHERE statement.
+4. Only apply Indexes on Necessary Columns only.
+
    
