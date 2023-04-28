@@ -13,3 +13,11 @@ Create a table for your project.
 
 ### What if I can't think of table?
 If you can't think of a table create one to called <b>States</b> and load State information into the table.
+
+
+
+# Amber's Example
+``` sql
+INSERT INTO Venue (Name,Addy,ContactName,ContactPhone)
+VALUES ("A Venue", "55 Place Cir", "That Guy", "888-888-8888");
+```
