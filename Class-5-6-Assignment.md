@@ -12,3 +12,4 @@ I created 3 SQL Lite databases in REPLIT.com with a Entity Relationship and Ques
 
 Date functions are not standard across various SQL databases.  This secton will cover the most common date functions and their use/implementation in SQLLite, SQL Server and MySQL.
 - [Date Functions](DateFunctions.md)
+- [SQL Formatting Numbers](SQLFormatting.md)
