@@ -17,14 +17,11 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 - SQLLite SELECT Language - https://www.sqlite.org/lang_select.html
 
 
-Questions:
+## Questions:
+  Answer the following questions in the form of a SQL query in REPLIT.
+
 1. How many copies of the book titled "The Lost Tribe" are owned by the library branch whose name is "Sharpstown"? 
-
-
-
 2.  How many copies of the book titled "The Lost Tribe" are owned by each library branch? 
-
-
 
 3.  Retrieve the names of all borrowers who do not have any books checked out.
 
