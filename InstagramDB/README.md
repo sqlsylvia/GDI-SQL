@@ -16,6 +16,8 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 - SQLLite SELECT Language - https://www.sqlite.org/lang_select.html
 
 ## SQL Assignment
+Answer the following questions in the form of a SQL query in REPLIT.
+
 1. The business wants to reward our users who have been around the longest. 
    Identify the 5 oldest users.
 2. The business wants to target our inactive users with an email campaign 
@@ -28,13 +30,13 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 
 
 
-4. 
-  Our investors want to know how many times does the average user post.
+4.   Our investors want to know how many times does the average user post.
   - Use the following calculation for "average user posts"
   ```
-  [total number of photos] / [total number of users]
+            [total number of photos] / [total number of users]
   ```
   - CALCULATE AVG NUMBER OF PHOTOS PER USER
+  - Calculate the average number of photos per user
 
 
 
@@ -46,21 +48,4 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 6.  The business needs to figure out when to schedule an ad campgain
 - What day of the week do most users register on ?
 - To use MySQL database for this question go to http://sqlfiddle.com/#!9/355e87d
-``` sql 
-WITH UserRegistrationDay AS 
-(select
-  case cast (strftime('%w', created_at) as integer)
-  when 0 then 'Sunday'
-  when 1 then 'Monday'
-  when 2 then 'Tuesday'
-  when 3 then 'Wednesday'
-  when 4 then 'Thursday'
-  when 5 then 'Friday'
-  else 'Saturday' 
-  end as weekday
 
-from users)
-SELECT weekday, count(*) 
-from UserRegistrationDay
-group by weekday
-```
