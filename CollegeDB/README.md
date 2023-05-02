@@ -16,6 +16,7 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 
 - SQLLite Homepage - https://sqlite.org/index.html 
 - SQLLite SELECT Language - https://www.sqlite.org/lang_select.html
+- SQLLite Tutorial - https://www.sqlitetutorial.net/sqlite-show-tables/
 
 ## SQL Assignment
 Using the SQLLite database in REPLIT, answer the following questions with a SQL Statement.
