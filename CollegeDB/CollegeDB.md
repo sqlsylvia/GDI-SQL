@@ -2,6 +2,7 @@
 # College DB SQL Exercises
 
 REPLIT Site: https://replit.com/@sqlSylvia/GDI-SQLIntro#main.sql
+![CollegeDB ER Diagram](CollegeDB-ERDiagram.jpg)
 
 ## How to access replit.com CollegeDB
 1. To access and query the CollegeDB replit database, log into replit.com with your username and password.  If you don't have one, it is easy create from replit.com.
