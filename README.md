@@ -2,7 +2,7 @@
 
 
 ## Online Databases for learning
-- https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
+- W3Schools SQL Database: https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
 - The following 2 databases are the same schema, but in.
   - https://www.db-fiddle.com/f/6eXpPSRFQgzdKUCjSsbSF4/9 – No login required but you need to save you work elsewhere for backup.
