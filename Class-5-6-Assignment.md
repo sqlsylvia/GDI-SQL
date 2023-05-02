@@ -1,4 +1,4 @@
-# Class 4 and 5 Database SQL Practice
+# Class 5 and 6 Database SQL Practice
 
 ## PART 1 - SQL Practice
 I created 3 SQL Lite databases in REPLIT.com with a Entity Relationship and Questions to experiment and practice your SQL skills.
