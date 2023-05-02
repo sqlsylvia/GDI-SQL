@@ -16,3 +16,14 @@ Interested in practicing?  Check out the SQL Exercises at W3Schools!
 
 - https://www.w3schools.com/sql/sql_exercises.asp
 - https://www.sql-practice.com/
+
+
+## Class Examples and Assignments
+
+- [Class 1](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class1-Examples.md)
+- [Class 2 - Examples](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class2-Examples.md)
+- [Class 2 - Homework](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class2-HomeWork.md)
+- [Class 3 - Examples](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class3-Examples.md)
+- [Class 4 - Examples](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class4-Examples.md)
+- [Class 4 - Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class4-Assignment.md)
+- [Class 5 & 6 Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class-5-6-Assignment.md)
