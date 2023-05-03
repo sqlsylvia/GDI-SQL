@@ -25,29 +25,22 @@ Using the SQLLite database in REPLIT, answer the following questions with a SQL 
 
 1. How many students applied to Standford?
 
-
 2. What was the Average GPA of students that applied to Standford?
 
 3. Which students did not apply to any colleges?
 
-
-
 4. For each student, list their name, GPA and how many colleges they applied and how many colleges accepted them?
-
-
 
 5. For each student, list their name, GPA and how many colleges accepted them?
 
-6. Which students applied to a Computer Science program? Note: CS in the major column in Applications indicate a Computer Science.
-
+6. Which students applied to a Computer Science program? 
+   - Note: "CS" in the *major* column in **Applications** table indicates a Computer Science major.
 
 7. How many/which students went to a college in California?
 
 8. Which school has the smallest enrollment?
 
 9. How many/which students applied to the college with the smallest enrollment?
-
-
 
 10. Which is the most popular major to applied to?
 
