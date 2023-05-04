@@ -13,5 +13,6 @@ Need a REPLT Account? Go to https://replit.com/signup.
 ## Part 2 - Date and other Functions
 
 Date functions are not standard across various SQL databases.  This secton will cover the most common date functions and their use/implementation in SQLLite, SQL Server and MySQL.
-- [Date Functions](DateFunctions.md)
+- [Date Functions](SQL-DateFunctions.md)
 - [SQL Formatting Numbers](SQLFormatting.md)
+- [CASE Statements](SQL-CASE-STATEMENTS.md)
