@@ -3,6 +3,11 @@
 REPLIT Site: [https://replit.com/@sqlSylvia/Instagram-Database](https://replit.com/@sqlSylvia/Instagram-Database#main.sql)
 
 
+To copy this template to your replit account.
+1. Click on https://replit.com/@sqlSylvia/Instagram-Database
+2. Select "Use Template"
+3. Sign into your replit account
+
 ![Instagram ER Diagram](InstagramDB-ERDiagram.jpg)
 
 ## How to access replit.com InstagramDB
