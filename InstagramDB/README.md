@@ -29,25 +29,25 @@ Answer the following questions in the form of a SQL query in REPLIT.
 
 1. The business wants to reward the **users** who have been around the **longest**. 
    **Identify the 5 oldest users.**
-2. The business wants to target our inactive users with an email campaign 
-  find the users who have never posted a photo.
+2. The business wants to target our **inactive users** with an email campaign.
+   Find the **users** who have never posted a photo.
    Identify inactive Users (hint: Check USERS with no photo)
 
 3. The business is runnning a new contest to see who can get the most likes on single photos
-  - IDENTIFY MOST POPULAR PHOTO AND USER WHO CREATED IT
-  - WHO WON??!!
+- Identify the most popular **photo** and the **user** who created it.
 
 
 
 4. A brand wants to know  which hashtags to use in a post.
   - **What are the top 5 most commonly used hashtags**
 
-5. Our investors want to know how many times does the average user post.
-  - Use the following calculation for "average user posts"
-  ```
-            [total number of photos] / [total number of users]
-  ```
-  - CALCULATE AVG NUMBER OF PHOTOS PER USER
+5. Which usernames posted the most number of comments?
+
+6. Who has the most # of photos?
+
+7.  Our investors want to know how many times does the average user post.
+  To calulate average user posts
+  [total number of photos] / [total number of users]
   - Calculate the average number of photos per user
 
 
