@@ -2,6 +2,11 @@
 # College DB SQL Exercises
 
 REPLIT Site: https://replit.com/@sqlSylvia/GDI-SQLIntro#main.sql
+To copy this template to your replit account.
+1. Click on https://replit.com/@sqlSylvia/GDI-SQLIntro#main.sql
+2. Select "Use Template"
+3. Sign into your replit account
+
 ![CollegeDB ER Diagram](CollegeDB-ERDiagram.jpg)
 
 ## How to access replit.com CollegeDB
