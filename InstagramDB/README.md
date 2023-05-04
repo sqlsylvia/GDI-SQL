@@ -27,8 +27,8 @@ REPLIT SQL uses the SQL database SQLLite.  As the name implies, it is lightweigh
 ## SQL Assignment
 Answer the following questions in the form of a SQL query in REPLIT.
 
-1. The business wants to reward our users who have been around the longest. 
-   Identify the 5 oldest users.
+1. The business wants to reward the **users** who have been around the **longest**. 
+   **Identify the 5 oldest users.**
 2. The business wants to target our inactive users with an email campaign 
   find the users who have never posted a photo.
    Identify inactive Users (hint: Check USERS with no photo)
@@ -39,7 +39,10 @@ Answer the following questions in the form of a SQL query in REPLIT.
 
 
 
-4.   Our investors want to know how many times does the average user post.
+4. A brand wants to know  which hashtags to use in a post.
+  - **What are the top 5 most commonly used hashtags**
+
+5. Our investors want to know how many times does the average user post.
   - Use the following calculation for "average user posts"
   ```
             [total number of photos] / [total number of users]
@@ -48,9 +51,6 @@ Answer the following questions in the form of a SQL query in REPLIT.
   - Calculate the average number of photos per user
 
 
-
-5. A brand wants to know  which hashtags to use in a post.
-  - What are the top 5 most commonly used hashtags
 
 
 
