@@ -5,6 +5,7 @@ The CASE expression goes through conditions and returns a value when the first c
 See: https://www.w3schools.com/sql/sql_case.asp
 
 ## Examples
+Using W3Schools SQL Database: https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 ``` sql 
 SELECT OrderID, Quantity,
 CASE
