@@ -53,8 +53,3 @@ Answer the following questions in the form of a SQL query in REPLIT.
 
 
 
-
-6.  The business needs to figure out when to schedule an ad campgain
-- What day of the week do most users register on ?
-- To use MySQL database for this question go to http://sqlfiddle.com/#!9/355e87d
-
