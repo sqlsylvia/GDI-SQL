@@ -1,7 +1,7 @@
 
 # REPLIT LibrarySystem SqlLite DB 
 
-REPLIT Site:  [https://replit.com/@sqlSylvia/LibrarySystem ](https://replit.com/@sqlSylvia/Instagram-Database#main.sql)
+REPLIT Site:  [https://replit.com/@sqlSylvia/LibrarySystem](https://replit.com/@sqlSylvia/LibrarySystem#main.sql)
 
 
 ![LibrarySystem ER Diagram](LibrarySystem-ERDiagram.jpg)
