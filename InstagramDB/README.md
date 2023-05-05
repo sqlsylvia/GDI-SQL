@@ -46,9 +46,12 @@ Answer the following questions in the form of a SQL query in REPLIT.
 6. Who has the most # of photos?
 
 7.  Our investors want to know how many times does the average user post.
-  To calulate average user posts
-  [total number of photos] / [total number of users]
-  - Calculate the average number of photos per user
+
+
+  - Calculate the average number of photos per user with the following calculations.
+  ```
+   [total number of photos] / [total number of users]
+  ```
 
 
 
