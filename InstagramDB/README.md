@@ -39,7 +39,7 @@ Answer the following questions in the form of a SQL query in REPLIT.
 
 
 4. A brand wants to know  which hashtags are used in a post.
-  - **What are the top 5 most commonly used hashtags**
+    - **What are the top 5 most commonly used hashtags?**
 
 5. Which usernames posted the most number of comments?
 
