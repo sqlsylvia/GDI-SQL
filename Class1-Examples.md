@@ -8,8 +8,8 @@ Use the SQL and database editor at https://www.w3schools.com/sql/trysql.asp?file
 
 ## WHERE Clause Examples
 
-``` sql 
 ### Using EQUAL To 
+``` sql 
 SELECT * FROM Customers
 WHERE Country='UK';
 ```
