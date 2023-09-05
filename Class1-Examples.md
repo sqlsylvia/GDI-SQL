@@ -4,11 +4,27 @@ Use the SQL editor at https://www.w3schools.com/sql/trysql.asp?filename=trysql_e
 
 ## WW3School Database Schema
 
+## WHERE Clause Examples
+SELECT * FROM [Products]
+where Price > 10
+order by Price desc
 
+
+SELECT * FROM [Products]
+where Price > 10
+order by Price desc
+
+
+SELECT * FROM [Customers]
+where Country = "Argentina" or Country = "Venezuela"
+
+## NOT Clause
+SELECT * FROM Customers
+WHERE NOT Country='Germany';
 <img width="1563" alt="image" src="https://user-images.githubusercontent.com/3587423/233473990-104d95d7-b0fb-46f0-8f0a-5c901cae633a.png">
 
 
-## JOIN Example
+## Group Example
 ``` sql
 SELECT CategoryID, Avg(Price), Count(*) as NumberOfProducts
 FROM [Products]
@@ -36,20 +52,4 @@ group by CategoryID
 
 
 
-## WHERE Clause Examples
-SELECT * FROM [Products]
-where Price > 10
-order by Price desc
 
-
-SELECT * FROM [Products]
-where Price > 10
-order by Price desc
-
-
-SELECT * FROM [Customers]
-where Country = "Argentina" or Country = "Venezuela"
-
-## NOT Clause
-SELECT * FROM Customers
-WHERE NOT Country='Germany';
