@@ -1,4 +1,4 @@
-# SQL Queries from Class
+# SQL Queries from Class 1
 
 ## Database
 Use the SQL and database editor at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
