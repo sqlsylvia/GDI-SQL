@@ -87,7 +87,10 @@ WHERE NOT Country='Germany';
 ```
 
 
-## Group BY Example 
+## GROUP BY Examples
+The GROUP BY statement identifies a selected column to use for grouping results. It divides the data into groups by the values in the column specified, and returns one row of results for each group.
+
+You can use GROUP BY with more than one column name (separate column names with commas). Always place GROUP BY after FROM and WHERE in a query, and before HAVING and ORDER BY.
 
 ``` sql
 SELECT CategoryID, Avg(Price), Count(*) as NumberOfProducts
@@ -99,10 +102,7 @@ ORDER BY CategoryID
 <img width="939" alt="image" src="https://user-images.githubusercontent.com/3587423/233473064-b6c8b7b4-e8c7-45ef-b85d-281ecd0c05d2.png">
 
 
-## GROUP BY Examples
-The GROUP BY statement identifies a selected column to use for grouping results. It divides the data into groups by the values in the column specified, and returns one row of results for each group.
 
-You can use GROUP BY with more than one column name (separate column names with commas). Always place GROUP BY after FROM and WHERE in a query, and before HAVING and ORDER BY.
 
 ``` sql
 SELECT ProductName, AVG(Price) FROM [Products]
