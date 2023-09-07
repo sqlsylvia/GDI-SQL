@@ -4,6 +4,14 @@
 Run these examples in the W3 School database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
 ## GROUP BY and HAVING
+
+The GROUP BY statement identifies a selected column to use for grouping results. It divides the data into groups by the values in the column specified, and returns one row of results for each group.
+
+The HAVING keyword must be used with grouped data in a GROUP BY query.
+
+The HAVING keyword behaves like the WHERE clause in the GROUP BY query.
+
+
 ``` sql
   SELECT ShipperName, Count(Orders.OrderID) cnt
   FROM Orders
@@ -15,11 +23,18 @@ Run these examples in the W3 School database at https://www.w3schools.com/sql/tr
 ORDER by 2 asc
 ```
 
+The following can provide more examples and information on the GROUP BY SQL statements.
+- https://www.w3schools.com/sql/sql_groupby.asp
+- https://www.tutorialspoint.com/sql/sql-group-by.htm
+- https://learn.microsoft.com/en-us/sql/t-sql/queries/select-group-by-transact-sql?view=sql-server-ver16
+- https://www.sqltutorial.org/sql-group-by/
+
+
 ## JOIN Examples
 See folllowing for more information and examples on JOINS
-
-- FreeCodeCamp SQL - https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/#:~:text=There%20are%20three%20types%20of,RIGHT%20JOIN%20%2C%20and%20FULL%20JOIN%20
 - W3Schools - https://www.w3schools.com/sql/sql_join.asp 
+- FreeCodeCamp SQL - https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/#:~:text=There%20are%20three%20types%20of,RIGHT%20JOIN%20%2C%20and%20FULL%20JOIN%20
+
 
 ### INNER JOIN Example
 ``` sql
