@@ -3,6 +3,18 @@
 
 Run these examples in the W3 School database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
 
+## GROUP BY and HAVING
+``` sql
+  SELECT ShipperName, Count(Orders.OrderID) cnt
+  FROM Orders
+  INNER Join Shippers ON Shippers.ShipperID = Orders.ShipperID
+  --WHERE ShipperName == "Speedy Express"
+  GROUP BY ShipperName
+  -- HAVING cnt > 60
+  HAVING ShipperName == "Speedy Express"
+ORDER by 2 asc
+```
+
 ## JOIN Examples
 See folllowing for more information and examples on JOINS
 
@@ -46,17 +58,7 @@ FROM Orders
 JOIN OrderDetails 
 
 ``` 
-## GROUP BY and HAVING
-``` sql
-  SELECT ShipperName, Count(Orders.OrderID) cnt
-  FROM Orders
-  INNER Join Shippers ON Shippers.ShipperID = Orders.ShipperID
-  --WHERE ShipperName == "Speedy Express"
-  GROUP BY ShipperName
-  -- HAVING cnt > 60
-  HAVING ShipperName == "Speedy Express"
-ORDER by 2 asc
-```
+
 
 
 ## UNION Example
