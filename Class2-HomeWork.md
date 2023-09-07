@@ -1,4 +1,8 @@
 # Optional Homework Assignments
+
+To complete the following assignment, use JOINS to various tables in the W3Schools database at https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor.
+
+
 # 1. How many products are there by category?  List out CategoryName, and number of products?
 
 <!-- 
