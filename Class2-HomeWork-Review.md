@@ -1,5 +1,5 @@
-# Class Work Examples- April 20, 2023
-
+# Class 2 HomeWork Review
+<!--  
 ## Are there any employees that went to Boston College? Who?
 ```
     SELECT * from Employees 
@@ -37,3 +37,5 @@ JOIN orderdetails  ON orders.orderid = orderdetails.orderid
 JOIN customers  ON orders.customerid = customers.customerid
 JOIN Products ON orderdetails.productid = products.productid
 ```
+
+-->
