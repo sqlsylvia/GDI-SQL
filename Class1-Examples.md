@@ -8,6 +8,32 @@ Use the SQL and database editor at https://www.w3schools.com/sql/trysql.asp?file
 
 ## WHERE Clause Examples
 
+
+### Using SELECT 
+The SELECT statement informs the database to extract data from one or more tables.
+
+The * indicates to list all columns in table.
+
+``` sql 
+SELECT * FROM Customers
+```
+
+It is best practice to list all the columns you want in the query.
+``` sql 
+select CustomerName, City, Country 
+  FROM Customers
+```
+
+### Using ORDER BY
+ORDER BY specifies the order in which rows appear in a report. 
+
+- If you use ORDER BY, it must be the last clause in the entire statement. 
+- Any columns named after ORDER BY must also be named after SELECT.
+``` sql 
+SELECT * FROM [Customers]
+ORDER BY Country 
+```
+
 ### Using EQUAL To 
 ``` sql 
 SELECT * FROM Customers
@@ -15,7 +41,11 @@ WHERE Country='UK';
 ```
 
 ### Using ORDER BY
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
 
+The ORDER BY keyword sorts the records in ascending order by default. 
+- To sort the records in descending order, use the DESC keyword.
+- To sort the records in ascending order, use the ASC keyword.
 ``` sql 
 SELECT * FROM [Customers]
 where Country = "Argentina" or Country = "Venezuela"
@@ -23,6 +53,11 @@ ORDER BY Country
 ```
 
 ### Using OR
+You can select rows based on multiple conditions connected by OR. 
+
+Conditions connected by OR select every row that satisfies any of the conditions.
+
+For more examples: https://www.w3schools.com/sql/sql_or.asp
 
 ``` sql 
 SELECT * FROM [Customers]
@@ -36,7 +71,7 @@ SELECT * FROM [Customers]
 WHER City = "Boston" AND Country = "USA"
 ```
  
-### Using >
+### Using GREATER THAN : >
 
 ``` sql 
 SELECT * FROM [Products]
@@ -65,6 +100,9 @@ ORDER BY CategoryID
 
 
 ## GROUP BY Examples
+The GROUP BY statement identifies a selected column to use for grouping results. It divides the data into groups by the values in the column specified, and returns one row of results for each group.
+
+You can use GROUP BY with more than one column name (separate column names with commas). Always place GROUP BY after FROM and WHERE in a query, and before HAVING and ORDER BY.
 
 ``` sql
 SELECT ProductName, AVG(Price) FROM [Products]
@@ -82,10 +120,25 @@ ORDER BY CategoryID
 ``` sql
 SELECT CategoryID, Avg(Price), MIN(Price), Max(Price), Count(*) as NumberOfProducts 
 FROM [Products] 
-group by CategoryID
+GROUP BY CategoryID
 ```
 
+### HAVING in a GROUP BY 
 
+The HAVING clause filters results obtained by the GROUP BY clause.
+``` sql
+SELECT Country, COUNT(CustomerID), 
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
 
+```
 
+``` sql
+SELECT Country, COUNT(CustomerID)
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5
+ORDER BY COUNT(CustomerID) DESC;
 
+```
