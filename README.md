@@ -27,3 +27,4 @@ Interested in practicing?  Check out the SQL Exercises at W3Schools!
 - [Class 4 - Examples](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class4-Examples.md)
 - [Class 4 - Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class4-Assignment.md)
 - [Class 5 & 6 Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class-5-6-Assignment.md)
+- [Sep 2023 Class Slides](https://github.com/sqlsylvia/GDI-SQL/tree/main/2023-Sep-Slides)
