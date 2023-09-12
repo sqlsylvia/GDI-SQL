@@ -28,3 +28,10 @@ Interested in practicing?  Check out the SQL Exercises at W3Schools!
 - [Class 4 - Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class4-Assignment.md)
 - [Class 5 & 6 Assignment](https://github.com/sqlsylvia/GDI-SQL/blob/main/Class-5-6-Assignment.md)
 - [Sep 2023 Class Slides](https://github.com/sqlsylvia/GDI-SQL/tree/main/2023-Sep-Slides)
+
+
+## For more resources on learning master SQL JOINS
+- Good course content: https://www.sqlshack.com/learn-sql-join-multiple-tables/
+
+- JOIN Tutorial -- https://codehs.com/student/4653691/section/464359/assignment/114963914
+
