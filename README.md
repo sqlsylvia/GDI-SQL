@@ -34,4 +34,5 @@ Interested in practicing?  Check out the SQL Exercises at W3Schools!
 - Good course content: https://www.sqlshack.com/learn-sql-join-multiple-tables/
 
 - JOIN Tutorial -- https://codehs.com/student/4653691/section/464359/assignment/114963914
+- CodeHS Video on SQL Joins: https://youtu.be/9QD4p6BHnJU
 
