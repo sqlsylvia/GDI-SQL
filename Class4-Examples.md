@@ -134,6 +134,15 @@ CREATE TABLE Persons (
     City varchar(255) DEFAULT 'New York'
 );
 ```
+
+### Example: INSERT without AUTO INCREMENT/IDENTITY
+``` sql
+INSERT INTO Persons(ID, LastName, FirstName, Age)
+SELECT 1, 'Johnson' , 'Peter', 45
+UNION
+SELECT 99, 'Rodriguez', 'Sally', 22
+
+```
 ##  Auto-Increment
 Auto-increment allows a unique number to be generated automatically when a new record is inserted into a table.
 
