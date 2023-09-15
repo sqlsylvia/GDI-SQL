@@ -29,7 +29,14 @@ SELECT 1000, 'Lily Supplier', 'Lily', 'Somewhere' , 'Detroit', NULL, 'USA', '111
 - Add a new column for Country in the Employees table and
   ALTER TABLE Employees
      ADD COLUMN Country VARCHAR(100)
-- Update 2 or more records in the Employee table with values for Country.
+- Update 2 or more records in the Employees table with values for Country.
+UPDATE Employees
+SET Country = 'Germany'
+WHERE EmployeeID = 8;
+
+UPDATE Employees
+SET Country = 'UK'
+WHERE EmployeeID = 10;
 
 
 
