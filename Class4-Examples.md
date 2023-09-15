@@ -173,7 +173,8 @@ CREATE TABLE Persons (
     PRIMARY KEY (Personid)
 );
 ```
-
+ ### UPDATE Table Example
+ ... Sylvia TO DO ...
 
 ### Example: INSERT with AUTO INCREMENT/IDENTITY
 ``` sql
