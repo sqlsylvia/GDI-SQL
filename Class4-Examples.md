@@ -183,6 +183,13 @@ UNION
 SELECT 'Rodriguez', 'Sally', 22
 
 ```
+### ALTER TABLE
+``` sql
+ALTER TABLE [Employees] 
+ADD COLUMN Country VARCHAR(50);
+```
+
+
 
 ## How to improve a query performance?
 
