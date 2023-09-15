@@ -25,4 +25,11 @@ INSERT INTO Suppliers
 (SupplierID,		SupplierName,		ContactName,		Address,	City,	PostalCode,	Country,	Phone)
 SELECT 1000, 'Lily Supplier', 'Lily', 'Somewhere' , 'Detroit', NULL, 'USA', '111-123-1234'
 
-# Quiz 3: Add a new column for Country in the Employees table and Update 2 or more records in the Employee table with values for Country.
+# Quiz 3: 
+- Add a new column for Country in the Employees table and
+  ALTER TABLE Employees
+     ADD COLUMN Country VARCHAR(100)
+- Update 2 or more records in the Employee table with values for Country.
+
+
+
