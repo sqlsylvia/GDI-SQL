@@ -205,4 +205,13 @@ Improving query performance requires a lot of experience and understanding of
 3. Limit your results with a WHERE statement.
 4. Only apply Indexes on Necessary Columns only.
 
+
+### In Class Assignment
+Using W3Schools database: https://www.w3schools.com/sql/trysql.asp?filename=trysql_editor
+
+- Add 2 new customers to the Customers’ table.
+- Add 1 new supplier to the Suppliers’ table.
+- Add a new column for Country in the Employees table and Update 2 or more records in the Employee table with values for Country. 
+
+
    
