@@ -1,5 +1,5 @@
 
-# College DB SQL Exercises
+# College DB SQL Exercises - SQLLite Database
 
 REPLIT Site: https://replit.com/@sqlSylvia/GDI-SQLIntro#main.sql
 To copy this template to your replit account.
