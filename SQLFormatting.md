@@ -43,12 +43,23 @@ SELECT CAST(5634.6334 as int) as number
 ``` sql
 SELECT FORMAT("Decimals: %d %i", 200, 300);
 ```
-
-**References:**
-
-- https://www.alphacodingskills.com/sqlite/notes/sqlite-func-format.php
-  
 ### Example
 ``` sql
 SELECT FORMAT("Decimals: %d %i", 200, 300);
 ```
+**References:**
+
+- https://www.alphacodingskills.com/sqlite/notes/sqlite-func-format.php
+
+# SQL SELECT TOP, LIMIT and ROWNUM
+
+The reserved words LIMIT, SELECT TOP or ROWNUM command is used to specify the number of records to return.
+Unfortunately every database vendor support a diffent version of this functionality.
+
+Note:   
+- SQL Server uses SELECT TOP
+- MySQL uses LIMIT
+- Oracle uses ROWNUM
+- 
+**References:**
+- https://www.w3schools.com/sql/sql_ref_select_top.asp
