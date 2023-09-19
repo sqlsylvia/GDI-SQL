@@ -7,8 +7,8 @@ REPLIT Site:  [https://replit.com/@sqlSylvia/LibrarySystem](https://replit.com/@
 ![LibrarySystem ER Diagram](LibrarySystem-ERDiagram.jpg)
 
 ## How to access replit.com LibrarySystem
-1. To access and query the InstagramDB replit database, log into replit.com with your username and password.  If you don't have one, it is easy create from replit.com.
-2. Fork the REPLIT site to your account.  This way make a private copy for you to use now and in the future.
+1. To access and query the InstagramDB replit database, log into **replit.com** with your username and password.  If you don't have one, it is easy create from the **replit.com** home page.
+2. Once logged into **replit.com**, Fork the REPLIT site to your account.  This way make a private copy for you to use now and in the future.
 
 
 ## SQLLite References
