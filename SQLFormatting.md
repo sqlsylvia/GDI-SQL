@@ -38,6 +38,12 @@ SELECT CAST(5634.6334 as int) as number
 ```
 
 ## SQLLite
+
+### Example
+``` sql
+SELECT FORMAT("Decimals: %d %i", 200, 300);
+```
+
 **References:**
 
 - https://www.alphacodingskills.com/sqlite/notes/sqlite-func-format.php
