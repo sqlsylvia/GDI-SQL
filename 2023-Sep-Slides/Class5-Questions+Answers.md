@@ -68,3 +68,18 @@ select student_id, student_name
 from Student
 order by sizeHS desc
 ;
+
+--12 What is the Min, Max and Average high school size?
+
+select min(sizeHS)
+  , max(sizeHS)
+  ,avg(sizeHS)
+from student
+; 
+--12 What is the Min, Max and Average high school size?
+
+select min(sizeHS)
+  , max(sizeHS)
+  ,avg(sizeHS)
+from student
+; 
