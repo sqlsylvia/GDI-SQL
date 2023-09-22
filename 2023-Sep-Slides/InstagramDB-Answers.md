@@ -28,7 +28,7 @@ WHERE photos.id IS NULL;
 
 3. The business is runnning a new contest to see who can get the most likes on single photos
 - Identify the most popular **photo** and the **user** who created it.
-
+![Alt text](image-4.png)
 
 ``` sql 
 SELECT 
@@ -53,12 +53,13 @@ LIMIT 1;
 ``` sql 
 
 
-select t.tag_name as most_popular_tags from Tags t
-  where t.id in 
-  (select tag_id from Photo_Tags
-                group by tag_id
-                order by count(*) desc
-                limit 5);
+  select tags.tag_name, count(*)
+  from photo_tags
+  join tags on tags.id = photo_tags.tag_id
+  group by tags.tag_name
+  order by count(*) desc
+  limit 5
+    ;
 ```
 
 5. Which usernames posted the most number of comments?
